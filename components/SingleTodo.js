@@ -8,7 +8,7 @@ import {
     Center,
   } from "@chakra-ui/react";
   
-  const SingleTodo = ({ todo, openHandler, deleteHandler, isDeleteLoading }) => {
+  const singletodo = ({ todo, openHandler, deleteHandler, isDeleteLoading }) => {
     const getDateInMonthDayYear = (date) => {
       const d = new Date(date);
       const options = {
@@ -69,4 +69,4 @@ import {
     );
   };
   
-  export default SingleTodo;
+  export default singletodo;
