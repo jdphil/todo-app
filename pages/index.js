@@ -4,7 +4,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import ManageTodo from "../components/ManageTodo";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavBar";
 import SingleTodo from "../components/SingleTodo";
 import { supabaseClient } from "../lib/client";
 
